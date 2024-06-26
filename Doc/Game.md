@@ -87,7 +87,7 @@
 - Seer
   - N check 1 查人。
 - Knight
-  - D fight 1 决斗
+  - D duel 1 决斗
 - Hunter
   - S kill 亡语：死亡时带走一名玩家。
 - Survivor
