@@ -6,6 +6,14 @@ class GameTime(Enum):
     night = 2
 
 
+class GamePeriodStage(Enum):
+    night = 1
+    discuss = 2
+    vote = 3
+    extra_vote = 4
+    deathrattle = 5
+
+
 class WitchPotion(Enum):
     cure = 1
     poison = 2
@@ -14,6 +22,7 @@ class WitchPotion(Enum):
 class OriginWolfInfectResult(Enum):
     success = 1
     fail = 2
+
 
 class PlayerIdentity(Enum):
     HiddenWolf = 1

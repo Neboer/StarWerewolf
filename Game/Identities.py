@@ -156,7 +156,8 @@ class Hunter(Player):
 
     @GroupUserMethod.command("杀")
     def kill(self, target_sid):
-        if not self.survive:
+        #
+        if self.game.can_deathrattle:
             if not self.deathrattle_active:
                 self.game.instant_kill(target_sid)
                 self.game.group_broadcast(f"发动亡语，{target_sid}号玩家被杀。")
